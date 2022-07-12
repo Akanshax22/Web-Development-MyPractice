@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_960_720.jpg);
+    color: white;
+    
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    /* border: 2px solid red; */
+    left: 60px;
+    /* color: white; */
+}
+.left div{
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 43%;
+    margin: 20px auto;
+    /* border: 2px solid blue; */
+    /* color: white; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    /* color: white; */
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+}
+.navbar li a:hover , .navbar li a:active{
+    color: gray;
+    text-decoration: underline;
+}
+.left img{
+    filter: invert();
+    width: 50px;
+}
+.btn{
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* font-size: 20px; */
+    background-color: black;
+    color: white;
+    border: 2px solid lightcoral;
+}
+.btn:hover{
+    color: blanchedalmond;
+    background-color: gray;
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding:75px;
+    width: 33%;
+    border-radius: 30px;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width:508px;
+    padding:1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+}
+.form button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
